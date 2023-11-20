@@ -1,0 +1,132 @@
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+h3 {
+    text-align: center;
+    padding: 30px 0;
+}
+hr {
+    margin: 50px 0 30px;
+    border: 1px solid gray;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-bottom: 30px;
+}
+.info-row {
+    display: flex;
+    justify-content: center;
+}
+.info-row * {
+    width: 16%;
+    text-align: center;
+    font-weight: bold;
+}
+.alert {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+.red {
+    color: tomato;
+	font-weight: bold;
+}
+.new .data-card {
+    margin: 0 auto;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+} 
+.my-page > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+.my-page > form input {
+    margin-bottom: 30px;
+}
+.my-page > form button {
+    width: 50%;
+	padding: 10px;
+	border-radius: 16px;
+    font-weight: bold;
+	cursor: pointer;
+}
+.data-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding:  0 50px 50px;
+}
+.data-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 16px gray;
+    border-radius: 10px;
+    text-align: left;
+}
+.data-card > p:not(.confirm),
+.data-card > div:not(.btn-box) {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.data-card .toggle-row {
+    display: flex;
+    flex-direction: row;
+}
+.data-card .toggle-row .toggle-box {
+    display: flex;
+    flex-direction: column;
+}
+.data-card .toggle-row .toggle-box * {
+    display: none;
+}
+.data-card .view {
+    display: flex !important;
+}
+.confirm {
+    display: none;
+    justify-content: center;
+    font-weight: bold;
+}
+.btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.btn-box a {
+    display: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-box .change,
+.btn-box .no {
+    background-color: lightskyblue;
+}
+.btn-box .quit,
+.btn-box .delete,
+.btn-box .yes {
+    background-color: tomato;
+}
+.btn-box form {
+    display: none;
+}

@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+    font-family: "Noto Sans JP";
+    margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	padding: 5px 50px;
+	background-color: rgb(139, 196, 218);
+	font-weight: bold;
+    border-bottom: 3px solid white;
+	z-index: 100;
+}
+
+header .logo a {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	font-size: 24px;
+	font-family: "Black Ops One";
+	color: rgb(207, 140, 106);
+}
+
+header img {
+	height: 100%;
+}
+
+.header-menu {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-button a,
+.header-button button {
+    color: rgb(233, 232, 232);
+	font-size: 20px;
+	font-weight: bold;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.header-button a:hover,
+.header-button button:hover {
+    color: rgb(219, 219, 219);
+    transition: 0.15s;
+}

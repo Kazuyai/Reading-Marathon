@@ -1,0 +1,49 @@
+.login {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 30px;
+	border: 3px solid black;
+	border-radius: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+form  input {
+	padding: 6px;
+	border-radius: 30px;
+	text-align: center;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+	-webkit-appearance: none; 
+} 
+form button {
+	width: 50%;
+	padding: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+form button:hover {
+	background-color: rgb(116, 253, 111);
+	transition: 0.15s;
+}
+.alert {
+	text-align: center;
+	padding: 50px 0 30px;
+	color: tomato;
+	font-weight: bold;
+}

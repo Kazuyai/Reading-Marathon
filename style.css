@@ -1,0 +1,59 @@
+.MainVisual img {
+	display: block;
+	width: 100%;
+	height: calc(100vh - 100px);
+	object-fit: cover;
+	object-position: 50% 0;
+}
+
+.explain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+    padding: 30px;
+	text-align: center;
+	background-color: #ffefe4;
+	font-weight: bold;
+}
+
+.explain h1 {
+    padding: 30px 0;
+	font-size: 36px;
+	color: rgb(207, 140, 106);
+	font-family: "Black Ops One";
+}
+
+.explain .img-box {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.explain .img-box img {
+	width: 48%;
+}
+
+.first {
+	margin-top: 50px;
+}
+
+.sign-up {
+	width: 30%;
+    padding: 10px 20px;
+	margin: 10px 0 20px;
+	border-radius: 10px;
+	color: white;
+	background-color: #74ed6f;
+	font-size: 24px;
+	font-weight: bold;
+	box-shadow: 0 5px rgb(109, 143, 117);
+}
+
+.sign-up:hover {
+	transform: translateY(3px);
+	box-shadow: none;
+	transition: 0.3s;
+}
